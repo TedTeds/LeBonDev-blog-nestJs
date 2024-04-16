@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    /* background-color: red; */
+}
+
+.navigation {
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+

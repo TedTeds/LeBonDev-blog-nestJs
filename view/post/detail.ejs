@@ -1,0 +1,12 @@
+<%- include("../partials/header.ejs", {title: "Ajouter un article", style: "postDetail"}) %>
+
+<% if (local.post) { %> 
+    <div class="posts">
+        <% posts.forEach(post => { %>
+            <div class="post">
+                <h3><%= post.title %></h3>
+                <p><%= post.content %></p>
+            </div>
+    <% } %>
+
+<%- include("../partials/footer.ejs") %>
